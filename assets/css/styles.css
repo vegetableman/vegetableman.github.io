@@ -37,3 +37,9 @@ section {
   font-size: 21px;
   color: #864D24;
 }
+
+.social {
+  min-width: 150px;
+  display: flex;
+  justify-content: space-around;
+}
