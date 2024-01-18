@@ -12,7 +12,7 @@ env:
   NEXT_PUBLIC_TINA_BRANCH: ${{ github.head_ref }}
 jobs:
   build:
-    envionment: github-pages
+    environment: github-pages
     runs-on: ubuntu-latest
     strategy:
       matrix:
