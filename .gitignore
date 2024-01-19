@@ -38,3 +38,5 @@ yarn-error.log*
 .devenv*
 devenv.local.nix
 
+
+node_modules
