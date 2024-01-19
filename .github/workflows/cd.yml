@@ -32,6 +32,7 @@ jobs:
           NEXT_PUBLIC_TINA_CLIENT_ID: ${{ secrets.NEXT_PUBLIC_TINA_CLIENT_ID }}
           TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
           NEXT_PUBLIC_TINA_BRANCH: main
+          NODE_ENV: production
         run: npm run build
       - name: Copy TinaCMS artifacts
         run: |
